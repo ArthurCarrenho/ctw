@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Codecademy Translate Workaround",
+  "version": "0.1.8",
+  "description": "Stop google's translate translating the editor",
+  "author": "Arthur Carrenho",
+  "icons": { "128": "icons/icon128.png",
+           "144": "icons/icon144.png",
+          "152": "icons/icon152.png",
+          "192": "icons/icon192.png" },
+ 
+
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://www.codecademy.com/*"]
+  }],
+
+   "permissions": [
+    "https://www.codecademy.com/*",
+    "webNavigation"
+  ],
+
+  "background": {
+  "scripts": ["background.js"]
+}
+
+}
