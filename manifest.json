@@ -2,7 +2,7 @@
   "manifest_version": 2,
  
   "name": "Codecademy Translate Workaround",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stop google's translate translating the editor",
   "author": "Arthur Carrenho",
   "icons": { "128": "icons/icon128.png",
