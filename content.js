@@ -29,7 +29,3 @@ var checkExist = setInterval(function() {
     	}
     }
 }, 100); // check every 100ms
-
-window.onhashchange = function() { 
-	console.log('changed');
-}
