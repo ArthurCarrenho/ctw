@@ -1,21 +1,35 @@
-setTimeout(function(){ 
-// Get desired elements
-var element = document.getElementById('discovery-resize-14');
+var checkExist = setInterval(function() {
+    if ($('#discovery-resize-14').length) {
+    	if (document.getElementById('discovery-resize-14').classList.contains('notranslate') == false) {
 
-element.classList.add('notranslate');
+        console.log("Exists!");
+        // Get desired elements
+        var element = document.getElementById('discovery-resize-14');
 
-var element2 = document.getElementById('discovery-resize-25')
+        element.classList.add('notranslate');
 
-element2.classList.add('notranslate');
+        console.log("CTW: P1 OK");
 
-var element3 = document.getElementsByClassName('CodeMirror');
+        var element2 = document.getElementById('discovery-resize-25')
 
-// Iterate through the retrieved elements and add the necessary class names.
-for(var i = 0; i < element3.length; i++)
-{
-    element3[i].classList.add('notranslate');
-    console.log(element3[i].className);
+        element2.classList.add('notranslate');
+
+        console.log("CTW: P2 OK");
+
+        var element3 = document.getElementsByClassName('CodeMirror');
+
+        // Iterate through the retrieved elements and add the necessary class names.
+        for (var i = 0; i < element3.length; i++) {
+            element3[i].classList.add('notranslate');
+            console.log(element3[i].className);
+        }
+
+        console.log('CTW: Finished')
+        clearInterval(checkExist);
+    	}
+    }
+}, 100); // check every 100ms
+
+window.onhashchange = function() { 
+	console.log('changed');
 }
-
-console.log('CTW: Finished')
-}, 1000);
