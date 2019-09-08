@@ -4,7 +4,7 @@ CTW é um extensão para o Google Chrome desenvolvida com o objetivo de solucion
 ## Demonstração
 ## Antes
 ![Antes](https://i.imgur.com/MSxl23U.png)
-## Antes
+## Depois
 ![Depois](https://i.imgur.com/DqBW3p0.png)
 
 ### Markdown
