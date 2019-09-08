@@ -1,8 +1,11 @@
-## Welcome to GitHub Pages
+## Codecademy Translate Workaround
+CTW é um extensão para o Google Chrome desenvolvida com o objetivo de solucionar o conflito entre sua tradução automatica e o CodeMirror utilizado como editor de código no Codecademy.
 
-You can use the [editor on GitHub](https://github.com/ArthurCarrenho/ctw/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Demonstração
+## Antes
+![Antes](https://i.imgur.com/MSxl23U.png)
+## Antes
+![Depois](https://i.imgur.com/DqBW3p0.png)
 
 ### Markdown
 
