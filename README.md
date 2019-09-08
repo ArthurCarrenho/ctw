@@ -1,7 +1,7 @@
-## Codecademy Translate Workaround
+# Codecademy Translate Workaround
 CTW é um extensão para o Google Chrome desenvolvida com o objetivo de solucionar o conflito entre sua tradução automatica e o CodeMirror utilizado como editor de código no Codecademy.
 
-## Demonstração
+# Demonstração
 ## Antes
 ![Antes](https://i.imgur.com/MSxl23U.png)
 ## Depois
