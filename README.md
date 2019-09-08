@@ -9,6 +9,7 @@ CTW é um extensão para o Google Chrome desenvolvida com o objetivo de solucion
 
 # Instalação
 - Baixe o source-code do repositorio e extraia a pasta (ctw-*versão*)
+- Caso você esteja no site da extensão, os downloads estão localizados no cabeçalho da pagina
 - Após isto, entre em `chrome://extensions/`
 - Ative o *Modo de Desenvolvedor* localizado no canto superior direito
 - Arraste a pasta extraida para o navegador
